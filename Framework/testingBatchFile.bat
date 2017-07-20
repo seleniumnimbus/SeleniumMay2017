@@ -1,0 +1,1 @@
+java -cp bin;Lib/* org.testng.TestNG ./TestNG_Suite/MakeMyTrip.xml

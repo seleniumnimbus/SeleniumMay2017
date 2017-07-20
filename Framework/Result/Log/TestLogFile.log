@@ -1,0 +1,28 @@
+19/07/2017 22:11:53 SeleniumLog Launch Application. URL https://www.makemytrip.com/
+19/07/2017 22:11:54 SeleniumLog Maximize the window
+19/07/2017 22:11:55 SeleniumLog Xpath //*[@id='mmt_header_navigation']//img[@class='mmt_header_logo'] is present
+19/07/2017 22:11:57 SeleniumLog Value Bhubaneshwar is entered to object From Location text box
+19/07/2017 22:12:01 SeleniumLog Xpath //ul[contains(@class,'hp-widget__sfrom')]//span[contains(text(),'BBI')]/parent::p is present
+19/07/2017 22:12:11 SeleniumLog Object From Location is clicked
+19/07/2017 22:12:12 SeleniumLog Value Kolkata is entered to object To Location text box
+19/07/2017 22:12:12 SeleniumLog Xpath //ul[contains(@class,'hp-widget__sTo')]//span[contains(text(),'CCU')]/parent::p is present
+19/07/2017 22:12:13 SeleniumLog Object To Location is clicked
+19/07/2017 22:12:13 SeleniumLog Xpath //*[@id='hp-widget__depart'] is present
+19/07/2017 22:12:13 SeleniumLog Object Depart Calender is clicked
+19/07/2017 22:12:30 SeleniumLog Object Serachbutton is clicked
+19/07/2017 22:12:30 SeleniumLog Xpath //div[@class='filter_subdivisions aln-dep'] is present
+19/07/2017 22:12:47 SeleniumLog Launch Application. URL https://www.makemytrip.com/
+19/07/2017 22:12:49 SeleniumLog Maximize the window
+19/07/2017 22:12:49 SeleniumLog Xpath //*[@id='mmt_header_navigation']//img[@class='mmt_header_logo'] is present
+19/07/2017 22:12:50 SeleniumLog Value Bhubaneshwar is entered to object From Location text box
+19/07/2017 22:12:50 SeleniumLog Xpath //ul[contains(@class,'hp-widget__sfrom')]//span[contains(text(),'BBI')]/parent::p is present
+19/07/2017 22:12:50 SeleniumLog Object From Location is clicked
+19/07/2017 22:12:51 SeleniumLog Value Kolkata is entered to object To Location text box
+19/07/2017 22:12:51 SeleniumLog Xpath //ul[contains(@class,'hp-widget__sTo')]//span[contains(text(),'CCU')]/parent::p is present
+19/07/2017 22:12:52 SeleniumLog Object To Location is clicked
+19/07/2017 22:12:52 SeleniumLog Xpath //*[@id='hp-widget__depart'] is present
+19/07/2017 22:12:53 SeleniumLog Object Depart Calender is clicked
+19/07/2017 22:12:59 SeleniumLog Xpath //*[@id='hp-widget__return'] is present
+19/07/2017 22:13:00 SeleniumLog Object Return Calender is clicked
+19/07/2017 22:13:27 SeleniumLog Object Serachbutton is clicked
+19/07/2017 22:13:27 SeleniumLog Xpath //div[@class='filter_subdivisions aln-dep'] is present
