@@ -120,10 +120,10 @@ public class MakeMyTripAllFunctions extends DriverScript {
 	public void ClickSearchButton_SearchFlight(){
 		clickElement(xPathDesc.getValue("MMT_FlightPage", "SearchButton"), "Serachbutton");
 		if(waitfor_ElementToBePresent(180, xPathDesc.getValue("MMT_FlightPage", "AirlinesList"))){
-			test.log(LogStatus.PASS, "Click on Search Flight button and Flights are searched" );
+			test.log(LogStatus.PASS, "Click more on Search Flight button and Flights are searched" );
 		}
 		else{
-			test.log(LogStatus.FAIL, "Click on Search Flight button but Flights are not searched" );
+			test.log(LogStatus.FAIL, "Click more on Search Flight button but Flights are not searched" );
 		}
 	}
 	
