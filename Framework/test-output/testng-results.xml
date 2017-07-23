@@ -1,85 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="103802" started-at="2017-07-20T17:36:59Z" finished-at="2017-07-20T17:38:43Z">
+  <suite name="Default suite" duration-ms="102936" started-at="2017-07-22T10:38:32Z" finished-at="2017-07-22T10:40:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="103802" started-at="2017-07-20T17:36:59Z" finished-at="2017-07-20T17:38:43Z">
+    <test name="Default test" duration-ms="102936" started-at="2017-07-22T10:38:32Z" finished-at="2017-07-22T10:40:15Z">
       <class name="MakeMyTripAutomation.FlightBooking">
-        <test-method status="PASS" signature="config()[pri:0, instance:MakeMyTripAutomation.FlightBooking@154909b]" name="config" is-config="true" duration-ms="2886" started-at="2017-07-20T23:06:59Z" finished-at="2017-07-20T23:07:02Z">
+        <test-method status="PASS" signature="config()[pri:0, instance:MakeMyTripAutomation.FlightBooking@aa5eb0]" name="config" is-config="true" duration-ms="1670" started-at="2017-07-22T16:08:32Z" finished-at="2017-07-22T16:08:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method status="PASS" signature="BookFlight_OneWay()[pri:0, instance:MakeMyTripAutomation.FlightBooking@154909b]" name="BookFlight_OneWay" duration-ms="63711" started-at="2017-07-20T23:07:02Z" finished-at="2017-07-20T23:08:06Z">
+        <test-method status="PASS" signature="BookFlight_OneWay()[pri:0, instance:MakeMyTripAutomation.FlightBooking@aa5eb0]" name="BookFlight_OneWay" duration-ms="53901" started-at="2017-07-22T16:08:33Z" finished-at="2017-07-22T16:09:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookFlight_OneWay -->
-        <test-method status="PASS" signature="generateReports(org.testng.ITestResult)[pri:0, instance:MakeMyTripAutomation.FlightBooking@154909b]" name="generateReports" is-config="true" duration-ms="3394" started-at="2017-07-20T23:08:06Z" finished-at="2017-07-20T23:08:09Z">
+        <test-method status="PASS" signature="generateReports(org.testng.ITestResult)[pri:0, instance:MakeMyTripAutomation.FlightBooking@aa5eb0]" name="generateReports" is-config="true" duration-ms="2966" started-at="2017-07-22T16:09:27Z" finished-at="2017-07-22T16:09:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=BookFlight_OneWay status=SUCCESS method=FlightBooking.BookFlight_OneWay()[pri:0, instance:MakeMyTripAutomation.FlightBooking@154909b] output={null}]]]>
+                <![CDATA[[TestResult name=BookFlight_OneWay status=SUCCESS method=FlightBooking.BookFlight_OneWay()[pri:0, instance:MakeMyTripAutomation.FlightBooking@aa5eb0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReports -->
-        <test-method status="FAIL" signature="BookFlight_RoundTrip()[pri:0, instance:MakeMyTripAutomation.FlightBooking@154909b]" name="BookFlight_RoundTrip" duration-ms="30509" started-at="2017-07-20T23:08:09Z" finished-at="2017-07-20T23:08:39Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at MakeMyTripAutomation.MakeMyTripAllFunctions.selectLocation(MakeMyTripAllFunctions.java:45)
-	at MakeMyTripAutomation.FlightBooking.BookFlight_RoundTrip(FlightBooking.java:57)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.TestNG.privateMain(TestNG.java:1355)
-	at org.testng.TestNG.main(TestNG.java:1324)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="BookFlight_RoundTrip()[pri:0, instance:MakeMyTripAutomation.FlightBooking@aa5eb0]" name="BookFlight_RoundTrip" duration-ms="42399" started-at="2017-07-22T16:09:30Z" finished-at="2017-07-22T16:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookFlight_RoundTrip -->
-        <test-method status="PASS" signature="generateReports(org.testng.ITestResult)[pri:0, instance:MakeMyTripAutomation.FlightBooking@154909b]" name="generateReports" is-config="true" duration-ms="2241" started-at="2017-07-20T23:08:39Z" finished-at="2017-07-20T23:08:42Z">
+        <test-method status="PASS" signature="generateReports(org.testng.ITestResult)[pri:0, instance:MakeMyTripAutomation.FlightBooking@aa5eb0]" name="generateReports" is-config="true" duration-ms="1508" started-at="2017-07-22T16:10:13Z" finished-at="2017-07-22T16:10:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=BookFlight_RoundTrip status=FAILURE method=FlightBooking.BookFlight_RoundTrip()[pri:0, instance:MakeMyTripAutomation.FlightBooking@154909b] output={null}]]]>
+                <![CDATA[[TestResult name=BookFlight_RoundTrip status=SUCCESS method=FlightBooking.BookFlight_RoundTrip()[pri:0, instance:MakeMyTripAutomation.FlightBooking@aa5eb0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReports -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:MakeMyTripAutomation.FlightBooking@154909b]" name="tearDown" is-config="true" duration-ms="967" started-at="2017-07-20T23:08:42Z" finished-at="2017-07-20T23:08:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MakeMyTripAutomation.FlightBooking@aa5eb0]" name="tearDown" is-config="true" duration-ms="482" started-at="2017-07-22T16:10:14Z" finished-at="2017-07-22T16:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
