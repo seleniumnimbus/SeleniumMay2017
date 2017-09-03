@@ -36,6 +36,7 @@ public class MakeMyTripAllFunctions extends DriverScript {
 	public void selectLocation(String locationType, String location, String locationCode){
 		if(locationType.equals("From")){
 			//Enter value to from location
+			driver.findElement(By.xpath(xPathDesc.getValue("MMT_FlightPage", "FromLocation"))).clear();
 			EnterValueToTextBox(xPathDesc.getValue("MMT_FlightPage", "FromLocation"), location, "From Location text box");
 			if (waitfor_ElementToBePresent(10, "//ul[contains(@class,'hp-widget__sfrom')]//span[contains(text(),'"+ locationCode +"')]/parent::p")) {
 				clickElement("//ul[contains(@class,'hp-widget__sfrom')]//span[contains(text(),'"+ locationCode +"')]/parent::p", "From Location");
